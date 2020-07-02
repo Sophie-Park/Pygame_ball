@@ -43,7 +43,7 @@ character_to_x = 0
 #캐릭터 이동 속도
 character_speed = 5
 
-# 무기 만들기
+# 무기 만들기  
 weapon = pygame.image.load(os.path.join(image_path, "weapon.png"))
 weapon_size = weapon.get_rect().size
 weapon_width = weapon_size[0]
